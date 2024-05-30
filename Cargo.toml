@@ -1,0 +1,3 @@
+[workspace]
+members = ["ascn-rs", "ascn-rs-cli", "pgn-rs"]
+resolver = "2"

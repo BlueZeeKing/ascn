@@ -1,0 +1,18 @@
+[package]
+name = "ascn-rs"
+version = "0.3.0"
+edition = "2021"
+description = "A chess encoding similar to PGN but significantly smaller"
+license = "MIT"
+authors = ["BlueZeeKing"]
+repository = "https://github.com/BlueZeeKing/ascn-rs"
+
+exclude = ["tests/*"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chess = "3.2.0"
+indicatif = "0.17.3"
+pgn-rs = { path = "../pgn-rs" }
+
